@@ -7,4 +7,4 @@
 - if one provider fails, `pswitch` will try the next one
 - health probes only log when a provider recovers
 - if usage is missing in logs, the upstream response did not include token usage
-- if `/claude` is enabled, make sure its route has `upstream_model`
+- if `/claude` is enabled, make sure it's route has `upstream_model`
